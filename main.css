@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Typography styles */
+
+/* h1 {
+    font-size: 1.875rem;
+    font-weight: 700;
+    line-height: 2rem;
+}
+
+h2 {
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.125rem;
+} */
+
+/* Body Styles */
+
+body {
+    /* background-color: hsl(216, 12%, 8%); */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(216, 12%, 8%);
+    font-family: "Overpass", sans-serif;
+}
+
+/* Rating card component styles (Main) */
+
+main {
+    /* background-color:  */
+    width: 27%;
+    border-radius: 16px;
+    padding: 24px;
+    background-color: hsl(213, 19%, 18%);
+}
+
+
+img {
+    border-radius: 50%;
+    padding: 6px;
+    margin-bottom: 16px;
+    background-color: hsl(214, 20%, 29%);
+}
+
+h1 {
+    margin-bottom: 16px;
+    line-height: 1rem;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+p {
+    line-height: 1.3rem;
+    margin-bottom: 24px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+}
+
+.rating-number-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating-number p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 8px 14px;
+    background-color: hsl(214, 20%, 29%);
+    color: hsl(0, 0%, 100%);
+}
+
+button {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 24px;
+    border: none;
+    margin-top: 8px;
+    font-family: "Overpass", sans-serif;
+    font-weight: 700;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
